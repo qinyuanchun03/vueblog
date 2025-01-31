@@ -15,7 +15,7 @@ export default defineThemeConfig({
   ],
   // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
    aside: true, // 页内侧边栏， 默认显示在右侧
-   outline: [1, 2], // 页内大纲， 默认显示 h2, h3
+   outline: [1, 3], // 页内大纲， 默认显示 h2, h3
 
   /**
    * 文章版权信息
@@ -50,8 +50,8 @@ export default defineThemeConfig({
         name: '江湖笔者文库',
         description: '简单丰富的文库',
          circle: true,
-         location: '',
-         organization: '',
+         location: '1',
+         organization: '1',
       },
 
       navbar: zhNavbar,
@@ -65,7 +65,7 @@ export default defineThemeConfig({
           layout: 'top-right',
           contentType: 'markdown',
           title: '公告',
-          content: '',
+          content: '你好',
         },
     },
     '/en/': {
@@ -76,9 +76,9 @@ export default defineThemeConfig({
         avatar: 'https://theme-plume.vuejs.press/plume.png',
         name: '江湖笔者文库',
         description: '简单丰富的文库',
-        // circle: true,
-        // location: '',
-        // organization: '',
+         circle: true,
+         location: '1',
+         organization: '1',
       },
 
       navbar: enNavbar,

@@ -7,9 +7,9 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: 简单是最好的攻略
+      tagline: 探索简单，带入你的生活
+      text: 点击“快速开始”，探索攻略吧！
       actions:
         -
           theme: brand
