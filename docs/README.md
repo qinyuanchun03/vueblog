@@ -13,7 +13,7 @@ config:
       actions:
         -
           theme: brand
-          text: 博客
+          text: 快速开始
           link: /blog/
         -
           theme: alt
